@@ -27,13 +27,10 @@ h2{
 }
 
 table{	
-	border: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 td{
-	align: center;
-	valign: center;
-	font-size: 150%;
+	padding: 5px 5px 5px 5px
 }
