@@ -14,7 +14,6 @@ a{
 	transition:.5s;
 }
 a:hover{
-	color: white;
 	border: 5px solid white;
 }
 
@@ -38,8 +37,6 @@ table{
 }
 
 td{
-	margin-top: 5px;
-	margin-bottom: 5px;
 	align: center;
 	valign: center;
 	font-size: 150%;
