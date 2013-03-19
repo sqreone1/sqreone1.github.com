@@ -7,15 +7,20 @@ body{
 a{
 	text-decoration: none;
 	color:#4E78A0;
+}
+a:hover{
+	color: white;
+}
+img{
 	-o-transition:.5s;
 	-ms-transition:.5s;
 	-moz-transition:.5s;
 	-webkit-transition:.5s;
 	transition:.5s;
 }
-a:hover{
+
+img:hover{
 	border: 5px white;
-}
 
 h1{
 	color: #84868A;
@@ -28,10 +33,8 @@ h2{
 	color: #2253ac;
 }
 
-table{
-	width: 250px;
+table{	
 	border: 0px;
-	padding: 10px 10px 10px 10px;
 	margin-left: auto;
 	margin-right: auto;
 }
