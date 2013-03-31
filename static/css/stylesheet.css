@@ -1,34 +1,59 @@
 body{
-	background-color: #adadad;
+	background-color: #505050;
 	font-family: Helvetica, Arial, sans-serif;
 	text-decoration: none;
 }
 
-a{
-	color: black;
+div a{
 	text-decoration: none;
+	color:#3B6AA0;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+a:hover{
+	color: white;
 }
 
-h1{
-	color: black;
-	text-decoration: none;
-	font-size: 270%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10%;
+h1 a{
+	color: white;
 	text-align: center;
+	text-decoration: none;
+	font-size: 150%;
+	margin-top: 25%;
+}
+h1{
+	text-align: center;
+	margin-top: 10%;
 }
 
 h2{
 	color: #2253ac;
 }
 
-table{	
+table{
+	width: 250px;
+	border: 0px;
+	padding: 10px 10px 10px 10px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 td{
-	margin-top: 5px;
-	margin-bottom: 5px;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	text-align: center;
+	font-size: 150%;
+}
+
+td img{
+	width: 60px;
+	height:60px;
+}
+
+.twitter-timeline
+{
+	text-align: center;
 }
